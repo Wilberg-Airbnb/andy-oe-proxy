@@ -1,13 +1,13 @@
 # Project Name
 
-> Project description
+> Andy Airbnb Proxy server
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/Wilberg-Airbnb/reviews
+  - https://github.com/Wilberg-Airbnb/location
+  - https://github.com/Wilberg-Airbnb/reservation
+  - https://github.com/Wilberg-Airbnb/description
 
 ## Table of Contents
 
@@ -17,23 +17,11 @@
 
 ## Usage
 
-> Some usage instructions
+-run npm install for every service and one for the proxy
+-build every service to create bundle.js file by following the installation instruction for each services.
+-run npm start for every service
+-npm run proxy
 
-## Requirements
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
 
