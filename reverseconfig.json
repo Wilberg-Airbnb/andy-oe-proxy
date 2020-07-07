@@ -1,0 +1,11 @@
+{
+    "routes":[
+        {
+            "route":"/reviews",
+            "addres": "http://localhost:8080"
+        },
+        {
+            "route": "reservation"
+        }
+    ]
+}
