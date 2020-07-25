@@ -8,7 +8,7 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "server": "nodemon server/server.js"
+    "server": "node server/server.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",

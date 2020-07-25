@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+
+  proxy:
+    restart: always
+    build: ./
+    working_dir: /usr/src/proxy
+    ports:
+      - "3000:3000"
+    command: bash -c "npm install && npm run server"
+    volumes:
+      - ./:/usr/src/proxy
